@@ -1,0 +1,69 @@
+body {
+
+    font-family: 'Space Grotesk', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: rgb(56, 56, 56);
+}
+.left { 
+    float: left;
+    color: rgb(0, 116, 224);
+    font-size: 36px;
+    font-weight: 350;
+    width: 100%;
+}
+.right {
+    font-size: 15px;
+    float: right;
+    padding-right: 20px;
+    float: right;
+}
+.color1 {
+    color: rgb(255, 255, 255);
+}
+.podleft {
+    font-size: 18px;
+    font-weight: 150;
+}
+.tech {
+    font-size: 18px;
+}
+.mach {
+
+    font-size: 36px;
+}
+.padding {
+    padding: 20px;
+}
+.item-1 {
+    background-color: rgb(56, 56, 56);
+    height: 50px;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 200;
+}
+.item1 {
+    color: rgb(0, 116, 224);
+}
+.grid {
+    /* display: grid;
+    grid-gap: 10px; */
+}
+.grid-serwerownia {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.serwerownia {
+    margin-top: 300px;
+    background-image: url(../zdj/klimatyzacja-serwerownii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
